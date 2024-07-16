@@ -4,4 +4,6 @@
 
 ## Prerequisites
 
-## Optional - setup
+## Before you start
+
+(Any required setup steps.)
