@@ -23,7 +23,3 @@ These prompts can be use in multiple experiences, for instance in a Power App, a
 - Copilot for Microsoft 365 license
 - Run through the [setup](https://learn.microsoft.com/microsoft-365-copilot/extensibility/prerequisites) of Copilot for Microsoft 365
 - Deployed the Copilot Studio app from the integrated apps list
-
-## Before you start
-
-(Any required setup steps.)
