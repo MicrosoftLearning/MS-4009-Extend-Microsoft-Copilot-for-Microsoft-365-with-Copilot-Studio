@@ -1,1 +1,0 @@
-See template in prompt actions folder.
