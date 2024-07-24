@@ -46,8 +46,54 @@ Now it's time for task 2, and we will work on testing the connector action. Leav
 
 In this task, you will test the connector action you configured in task 1 in Copilot for 365 in Microsoft Teams.
 
+  :::image type="content" source="../Media/connect-test.png" alt-text="The review, test and publish your action section of the connector action wizard.":::
+
 1. **Create a connection** for the MSN Weather connector if you don't have one yet or select an existing one.
+1. Select the **Test action** button.
 
-    :::image type="content" source="../Media/connect-test.png" alt-text="The review, test and publish your action screen in the connector action wizard.":::
+    > [!NOTE]
+    > This will trigger a process where your connector action will get deployed to Microsoft Teams so that you can test it out.
 
-1.
+1. Select **Open to test** to test.
+
+    > [!NOTE]
+    > This will open a new browser tab and it will try to launch Microsoft Teams.
+
+1. Feel free to select **Cancel** in the pop-up where it tries to launch Microsoft Teams.
+1. Select **Use the web app instead**.
+
+    > [!NOTE]
+    > This will open Copilot for Microsoft 365 in Microsoft Teams.
+
+1. Select the **plugin** icon next to the send icon.
+1. Enable the **Test-MSN Weather** plugin.
+
+    > [!NOTE]
+    > This will show the following message.
+
+    :::image type="content" source="../Media/test-msn-weather.png" alt-text="The message displays that the Test-MSN Weather plugin is on.":::
+
+1. Replace your location and pick celsius or fahrenheit in the following message and send it to Copilot for Microsoft 365.
+
+    ```text
+    What is the current weather in <your location> in <celsius/fahrenheit> according to MSN Weather?
+    ```
+
+1. If all has gone well, you should see something like this:
+
+      :::image type="content" source="../Media/msn-weather-result.png" alt-text="A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.":::
+
+## Task 3: Save the action and make it available to more people
+
+In this task, you will save the connector action and publish it.
+
+Let's pick up where we left off in Copilot Studio.
+
+1. Select **Next** in the wizard and the connector action will be published.
+
+    > [!NOTE]
+    > In the next screen, you will be able to go to the details screen or save and close.
+
+      :::image type="content" source="../Media/msn-weather-result.png" alt-text="A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.":::
+
+1. Select **Save and Close**.
