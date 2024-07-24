@@ -1,9 +1,10 @@
 # Exercise: Create a connector action
 
-In this exercise, you learn:
+In this exercise, you will learn:
 
 - How to create a connector action in Copilot Studio
 - How to test the connector action in Microsoft Teams
+- How to save and publish the connector action
 
 ## Connectors
 
@@ -83,7 +84,7 @@ In this task, you will test the connector action you configured in task 1 in Cop
 
       :::image type="content" source="../Media/msn-weather-result.png" alt-text="A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.":::
 
-## Task 3: Save the action and make it available to more people
+## Task 3: Save and publish the connector action
 
 In this task, you will save the connector action and publish it.
 
@@ -92,8 +93,10 @@ Let's pick up where we left off in Copilot Studio.
 1. Select **Next** in the wizard and the connector action will be published.
 
     > [!NOTE]
-    > In the next screen, you will be able to go to the details screen or save and close.
+    > In the next screen, you will be able to go to the details screen or save and close. As indicated in the message, it might take a few minutes for the action to show up in copilot experiences.
 
-      :::image type="content" source="../Media/msn-weather-result.png" alt-text="A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.":::
+      :::image type="content" source="../Media/connector-action-finished.png" alt-text="A screenshot of the publish screen in the connector action wizard.":::
 
 1. Select **Save and Close**.
+
+You now have configured and published your connector action.
