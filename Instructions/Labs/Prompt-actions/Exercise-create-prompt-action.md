@@ -24,7 +24,7 @@ As you can see, it has the following elements:
 
 :::image type="content" source="../Media/4-prompt-engineering-guide.png" alt-text="A screenshot of the prompt ingredients page of the AI Builder prompt engineering guide. The tasks, context, expectations and output are highlighted as prompt ingredients.":::
 
-## Task 1: Write the prompt
+## Task 1: Write a prompt
 
 In this exercise, you write a prompt that helps you create a professional development plan based on career milestones.
 
@@ -43,7 +43,7 @@ Together, that would be the following prompt:
 
 Design a professional development plan for someone aiming to achieve the following career [milestones]. The plan should include goals and objectives, resources, and tools and a timeline for activities. Format the plan to be concise and actionable and present the information in a clear easy-to-follow manner suitable for a junior level employee.
 
-## Task 2: Create the prompt in Copilot Studio
+## Task 2: Create a prompt action in Copilot Studio
 
 Now that you finished writing the prompt, it’s time to add it in Copilot Studio.
 
