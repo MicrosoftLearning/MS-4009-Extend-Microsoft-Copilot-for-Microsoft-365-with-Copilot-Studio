@@ -43,7 +43,7 @@ Now it's time for task 2, and we will work on testing the connector action. Leav
 
 In this task, you will test the connector action you configured in task 1 in Copilot for 365 in Microsoft Teams.
 
-![The review, test and publish your action section of the connector action wizard.](../Media/connect-test.png)
+    ![The review, test and publish your action section of the connector action wizard.](../Media/connect-test.png)
 
 1. **Create a connection** for the MSN Weather connector if you don't have one yet or select an existing one.
 1. Select the **Test action** button.
@@ -68,7 +68,8 @@ In this task, you will test the connector action you configured in task 1 in Cop
     > [!NOTE]
     > This will show the following message.
 
-    :::image type="content" source="../Media/test-msn-weather.png" alt-text="The message displays that the Test-MSN Weather plugin is on.":::
+    ![The message displays that the Test-MSN Weather plugin is on.](../Media/test-msn-weather.png)
+
 
 1. Replace your location and pick celsius or fahrenheit in the following message and send it to Copilot for Microsoft 365.
 
@@ -78,7 +79,7 @@ In this task, you will test the connector action you configured in task 1 in Cop
 
 1. If all has gone well, you should see something like this:
 
-      :::image type="content" source="../Media/msn-weather-result.png" alt-text="A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.":::
+   ![A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.](../Media/msn-weather-result.png)
 
 ## Task 3: Save and publish the connector action
 
@@ -91,8 +92,8 @@ Let's pick up where we left off in Copilot Studio.
     > [!NOTE]
     > In the next screen, you will be able to go to the details screen or save and close. As indicated in the message, it might take a few minutes for the action to show up in copilot experiences.
 
-      :::image type="content" source="../Media/connector-action-finished.png" alt-text="A screenshot of the publish screen in the connector action wizard.":::
-
+      ![A screenshot of the publish screen in the connector action wizard.](../Media/connector-action-finished.png)
+   
 1. Select **Save and Close**.
 
 You now have configured and published your connector action.
