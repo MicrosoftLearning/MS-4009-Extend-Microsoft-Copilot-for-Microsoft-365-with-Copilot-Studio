@@ -43,7 +43,7 @@ Now it's time for task 2, and we will work on testing the connector action. Leav
 
 In this task, you will test the connector action you configured in task 1 in Copilot for 365 in Microsoft Teams.
 
-  :::image type="content" source="../Media/connect-test.png" alt-text="The review, test and publish your action section of the connector action wizard.":::
+![The review, test and publish your action section of the connector action wizard.](../Media/connect-test.png)
 
 1. **Create a connection** for the MSN Weather connector if you don't have one yet or select an existing one.
 1. Select the **Test action** button.
