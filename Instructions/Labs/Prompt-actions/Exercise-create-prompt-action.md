@@ -22,7 +22,7 @@ As you can see, it has the following elements:
 - **Expectations**: convey to GPT **goals** and **expectations** on the response
 - **Output**: help GPT format the **output** the way you want
 
-:::image type="content" source="../Media/4-prompt-engineering-guide.png" alt-text="A screenshot of the prompt ingredients page of the AI Builder prompt engineering guide. The tasks, context, expectations and output are highlighted as prompt ingredients.":::
+![A screenshot of the prompt ingredients page of the AI Builder prompt engineering guide. The tasks, context, expectations and output are highlighted as prompt ingredients.](../Media/4-prompt-engineering-guide.png)
 
 ## Task 1: Write a prompt
 
