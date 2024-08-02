@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# MS-4009: Extend Microsoft Copilot for Microsoft 365 with Copilot Studio
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
