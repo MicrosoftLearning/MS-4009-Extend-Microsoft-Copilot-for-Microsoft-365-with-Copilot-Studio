@@ -70,7 +70,7 @@ Next, publish the action for use in Microsoft Copilot for Microsoft 365.
 
 1. On the **Publish latest content?** page, select **Publish**.  Publishing may take a couple of minutes.  A notification will be displayed at the top of the window when publishing has completed.
 
-## Task 6: Test the action
+## Task 6: Enable and test the action
 
 Finally, test the action in Microsoft Copilot for Microsoft 365.
 
@@ -80,8 +80,12 @@ Finally, test the action in Microsoft Copilot for Microsoft 365.
 
 1. Select **Copilot** in the chat menu.
 
-1. In the message compose box, enter `Who should I contact for questions about Project ABC?`
+1. In the message compose area, select the **plugins** button.
 
-1. Note that Microsoft Copilot for Microsoft 365 returns information about Project ABC using the conversational action.
+1. On the plugins menu, select **Copilot Studio** then select the toggle next to **Project ABC info** to enable the action.  Close the plugins flyout.
+
+2. In the message compose box, enter `Who should I contact for questions about Project ABC?`
+
+3. Note that Microsoft Copilot for Microsoft 365 returns information about Project ABC using the conversational action.
 
 You can customize or expand this conversational action with additional nodes.  For example, you could create a new **Generative answers** node and upload a file, expanding the knowledge available to the action.
