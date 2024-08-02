@@ -10,7 +10,7 @@ Exercise tasks:
 
 ## Task 1: (Optional) Test the default experience
 
-To begin, attempt to ask a question about project ABC in Microsoft Copilot for Microsoft 365.
+To begin, ask a question about project ABC in Microsoft Copilot for Microsoft 365.
 
 1. Open **Microsoft Teams**.
 
