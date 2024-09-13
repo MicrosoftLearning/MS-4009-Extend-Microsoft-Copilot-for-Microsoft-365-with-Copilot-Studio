@@ -11,6 +11,7 @@ In this exercise, you will:
 In this task, you will configure a connector action for the MSN Weather connector.
 
 1. Go to [Copilot Studio](https://copilotstudio.microsoft.com)
+1. Review or dismiss the Welcome wizard, if applicable.
 1. Select **Library** in the left navigation. This is the place where you have to be when you want to extend a first-party Copilot.
 1. Select **Add an item** at the top.
 1. Select **Copilot for Microsoft 365** in the Copilot selection screen.
