@@ -12,41 +12,41 @@ In this task, you will configure a connector action for the MSN Weather connecto
 
 1. Go to [Copilot Studio](https://copilotstudio.microsoft.com)
 1. Review or dismiss the Welcome wizard, if applicable.
-1. Select **Library** in the left navigation. This is the place where you have to be when you want to extend a first-party Copilot.
+1. Select **Library** in the left navigation.
 1. Select **Add an item** at the top.
-1. Select **Copilot for Microsoft 365** in the Copilot selection screen.
+1. Select **Microsoft 365 Copilot** in the Copilot selection screen.
 1. Select **Connector** to open the wizard for connector actions.
 1. Select **MSN Weather** as the connector.
 1. **Review** the description.
 
     > [!IMPORTANT]
-    > Review the description in the following screen. This description is very important because Copilot for Microsoft 365 will use this to match the user message with your plugin. If you don't have a good description, Copilot for Microsoft 365 might not trigger your connector action.
+    > This description is very important because Copilot will use this to match the user message with your plugin. If you don't have a good description, Copilot might not trigger your connector action.
 
-1. Select **Next** when you're happy with the description.
+1. Select **Next**.
 1. Select the **Get current weather** action.
 1. **Review** the action description.
 
     > [!IMPORTANT]
-    > Review the action description in the following screen. This action description is very important because Copilot for Microsoft 365 will use this to match the user message with your action. If you don't have a good action description, Copilot for Microsoft 365 might trigger the wrong action.
+    > Review the action description in the following screen. This action description is very important because Copilot will use this to match the user message with your action. If you don't have a good action description, Copilot might trigger the wrong action.
 
-1. Select **Next** when you're happy with the action description.
+1. Select **Next**.
 1. **Review** the descriptions of all the inputs and outputs.
 
     > [!IMPORTANT]
-    > Review the input and output descriptions in the following screen. These input and output descriptions is very important because Copilot for Microsoft 365 will use these for triggering the connector (inputs) and for writing a good response (outputs) to you. If you don't have a good input and output descriptions, Copilot for Microsoft 365 might not trigger the connector correctly or it will not send back a good response.
+    > Review the input and output descriptions in the following screen. These input and output descriptions are very important because Copilot will use these for triggering the connector (inputs) and for writing a good response (outputs) to you. If you don't have a good input and output descriptions, Copilot might not trigger the connector correctly or it will not send back a good response.
 
-1. Select **Next** when you're happy with the descriptions.
+1. Select **Next**.
 1. Next, you will see a screen where you can add more actions if you want to, but in this case we will skip this and select **Next**.
-
-Now it's time for task 2, and we will work on testing the connector action. Leave you're browser open and continue with the next text.
 
 ## Task 2: Test the connector action in Microsoft Teams
 
-In this task, you will test the connector action you configured in task 1 in Copilot for 365 in Microsoft Teams.
+In this task, you will test the connector action you configured in task 1 in Microsoft 365 Copilot in Microsoft Teams.
 
 ![The review, test and publish your action section of the connector action wizard.](../Media/connect-test.png)
 
-1. **Create a connection** for the MSN Weather connector if you don't have one yet or select an existing one.
+1. Select an existing connection if you have one, or select **New connection** to create a new connection for the MSN Weather connector.
+1. On the **New connection** menu, select **Create**.
+1. Under **Selected connection**, you can now select your new connection from the dropdown menu.
 1. Select the **Test action** button.
 
     > [!NOTE]
@@ -61,10 +61,10 @@ In this task, you will test the connector action you configured in task 1 in Cop
 1. Select **Use the web app instead**.
 
     > [!NOTE]
-    > This will open Copilot for Microsoft 365 in Microsoft Teams.
+    > This will open Microsoft 365 Copilot in Microsoft Teams.
 
-1. Select the **plugin** icon next to the send icon.
-1. Enable the **Test-MSN Weather** plugin.
+1. From the message compose area in Copilot in Teams, select the **plugin** icon next to the send icon.
+1. Locate the **Test-MSN Weather** plugin and select the toggle to enable it.
 
     > [!NOTE]
     > This will show the following message.
@@ -72,7 +72,7 @@ In this task, you will test the connector action you configured in task 1 in Cop
     ![The message displays that the Test-MSN Weather plugin is on.](../Media/test-msn-weather.png)
 
 
-1. Replace your location and pick celsius or fahrenheit in the following message and send it to Copilot for Microsoft 365.
+1.  Submit the following message to Microsoft 365 Copilot, filling in values for your desired location and units.
 
     ```text
     What is the current weather in <your location> in <celsius/fahrenheit> according to MSN Weather?
