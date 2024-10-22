@@ -10,7 +10,7 @@ Exercise tasks:
 
 ## Task 1: (Optional) Test the default experience
 
-To begin, ask a question about project ABC in Microsoft Copilot for Microsoft 365.
+To begin, ask a question about project ABC in Microsoft 365 Copilot.
 
 1. Open **Microsoft Teams**.
 
@@ -20,7 +20,7 @@ To begin, ask a question about project ABC in Microsoft Copilot for Microsoft 36
 
 1. In the message compose box, enter `Who should I contact for questions about Project ABC?`
 
-1. Note that Microsoft Copilot for Microsoft 365 does not currently have any information about Project ABC.
+1. Note that Microsoft 365 Copilot does not currently have any information about Project ABC.
 
 ## Task 2: Create a new conversational action
 
@@ -28,7 +28,7 @@ First, configure the name, solution, and schema for a new conversational action 
 
 1. On the side navigation pane, select **Copilots**.
 
-1. Under **Microsoft** select **Copilot for Microsoft 365**. The Overview page for Copilot for Microsoft 365 appears.
+1. Under **Microsoft** select **Microsoft 365 Copilot**. The Overview page for Microsoft 365 Copilot appears.
 
 1. In the **Actions** pane select **+ Add action**.
 
@@ -62,7 +62,7 @@ Next, add a node to the topic to send a message about Project ABC.
 
 ## Task 5: Publish the action
 
-Next, publish the action for use in Microsoft Copilot for Microsoft 365.
+Next, publish the action for use in Microsoft 365 Copilot.
 
 1. From the conversational action page, select **Publish**.
 
@@ -72,7 +72,7 @@ Next, publish the action for use in Microsoft Copilot for Microsoft 365.
 
 ## Task 6: Enable and test the action
 
-Finally, test the action in Microsoft Copilot for Microsoft 365.
+Finally, test the action in Microsoft 365 Copilot.
 
 1. Open **Microsoft Teams**.
 
@@ -86,6 +86,16 @@ Finally, test the action in Microsoft Copilot for Microsoft 365.
 
 2. In the message compose box, enter `Who should I contact for questions about Project ABC?`
 
-3. Note that Microsoft Copilot for Microsoft 365 returns information about Project ABC using the conversational action.
+3. Note that Microsoft 365 Copilot returns information about Project ABC by invoking the conversational action.
 
 You can customize or expand this conversational action with additional nodes.  For example, you could create a new **Generative answers** node and upload a file, expanding the knowledge available to the action.
+
+**Note:** Remember the following when testing your action in Copilot:
+- Copilot will always rewrite your answers with its own voice. It's not possible, in this preview, to have the content passed through unchanged to the end user.
+- The description of your conversational action is critical to how reliably it will be invoked. The description teaches the orchestrator what your action is good at and what answers it can provide. Be sure to use clear prose when writing the description, and consider experimenting with changes to get the best outcome.
+- Following these steps accurately does not guarantee that Copilot will return the expected results each time.  Copilot will determine when to invoke your plugin and how to return the results.
+
+## (Optional) Challenge: Create your own!
+
+Apply what you've learned to create, publish, and test a new conversational action for a scenario of your choice.  Review the steps in this exercise as needed.
+
