@@ -10,32 +10,35 @@ In this exercise, you will:
 
 In this task, you will configure a connector action for the MSN Weather connector.
 
-1. Go to [Copilot Studio](https://copilotstudio.microsoft.com)
-1. Select **Library** in the left navigation. This is the place where you have to be when you want to extend a first-party Copilot.
-1. Select **Add an item** at the top.
-1. Select **Copilot for Microsoft 365** in the Copilot selection screen.
-1. Select **Connector** to open the wizard for connector actions.
-1. Select **MSN Weather** as the connector.
-1. **Review** the description.
+1. Go to [Copilot Studio](https://copilotstudio.microsoft.com) and sign in with your work or school account, if prompted. Skip any welcome messages.
+
+    **Note:** The first time you open Copilot Studio, it may display a chat interface to create your first copilot. If this happens, select the **…** menu at the top right (next to the **Create** button) then select **Cancel copilot creation** to leave the chat interface and view the Copilot Studio home page.
+1. Select **Library** in the left navigation. Here, you can view a list of existing actions and connectors and create a new one.
+1. Select **Add an item** at the top.  A menu lists 2 options for extending Copilot for Microsoft 365.
+:::image type="content" source="../Media/extend copilot options.png" alt-text="Window lists 2 options for extending Copilot: create a copilot or create an action.":::
+2. Select **New action**.
+3. Select **Connector** to open the wizard for connector actions.
+4. Select **MSN Weather** as the connector.
+5. **Review** the description.
 
     > [!IMPORTANT]
     > Review the description in the following screen. This description is very important because Copilot for Microsoft 365 will use this to match the user message with your plugin. If you don't have a good description, Copilot for Microsoft 365 might not trigger your connector action.
 
-1. Select **Next** when you're happy with the description.
-1. Select the **Get current weather** action.
-1. **Review** the action description.
+6. Select **Next** when you're happy with the description.
+7. Select the **Get current weather** action.
+8. **Review** the action description.
 
     > [!IMPORTANT]
     > Review the action description in the following screen. This action description is very important because Copilot for Microsoft 365 will use this to match the user message with your action. If you don't have a good action description, Copilot for Microsoft 365 might trigger the wrong action.
 
-1. Select **Next** when you're happy with the action description.
-1. **Review** the descriptions of all the inputs and outputs.
+9.  Select **Next** when you're happy with the action description.
+10. **Review** the descriptions of all the inputs and outputs.
 
     > [!IMPORTANT]
     > Review the input and output descriptions in the following screen. These input and output descriptions is very important because Copilot for Microsoft 365 will use these for triggering the connector (inputs) and for writing a good response (outputs) to you. If you don't have a good input and output descriptions, Copilot for Microsoft 365 might not trigger the connector correctly or it will not send back a good response.
 
-1. Select **Next** when you're happy with the descriptions.
-1. Next, you will see a screen where you can add more actions if you want to, but in this case we will skip this and select **Next**.
+11. Select **Next** when you're happy with the descriptions.
+12. Next, you will see a screen where you can add more actions if you want to, but in this case we will skip this and select **Next**.
 
 Now it's time for task 2, and we will work on testing the connector action. Leave you're browser open and continue with the next text.
 
@@ -77,9 +80,11 @@ In this task, you will test the connector action you configured in task 1 in Cop
     What is the current weather in <your location> in <celsius/fahrenheit> according to MSN Weather?
     ```
 
-1. If all has gone well, you should see something like this:
+1. If all has gone well, Copilot should respond with a message using the plugin.  
 
    ![A screenshot of an example message and answer. The plugin responds with the current weather in Utrecht, The Netherlands in celsius.](../Media/msn-weather-result.png)
+
+   **Note:** Copilot may prompt you for permission before using the plugin.  Select **Always allow** to enable Copilot to use the plugin.
 
 ## Task 3: Save and publish the connector action
 
