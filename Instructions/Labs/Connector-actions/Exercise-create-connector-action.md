@@ -86,6 +86,8 @@ In this task, you will test the connector action you configured in task 1 in Mic
 
    **Note:** Copilot may prompt you for permission before using the plugin.  Select **Always allow** to enable Copilot to use the plugin.
 
+   :::image type="content" source="../Media/test-msn-weather-allow.png" alt-text="Screenshot of Copilot prompting for permission to use plugin.":::
+
 ## Task 3: Save and publish the connector action
 
 In this task, you will save the connector action and publish it.

@@ -47,20 +47,23 @@ Together, that would be the following prompt:
 
 Now that you finished writing the prompt, it’s time to enter it in Copilot Studio.
 
-1. Sign in to **[Copilot Studio](https://copilotstudio.microsoft.com)**.
-1. In the left pane, select **Library**
-1. Select the **Add an item** button
-1. Select **Microsoft 365 Copilot**
+1. In your web browser, navigate to [Copilot Studio](https://copilotstudio.microsoft.com) and sign in with your work or school account, if prompted.  Select **skip** to skip any welcome messages.
+
+    **Note:** The first time you open Copilot Studio, it may display a chat interface to create your first copilot. If this happens, select the **…** menu at the top right (next to the **Create** button) then select **Cancel copilot creation** and then **leave** to leave the chat interface and view the Copilot Studio home page.
+1. Select **Library** in the left navigation. Here, you can view a list of existing actions and connectors and create a new one.
+1. Select **Add an item** at the top.  A menu lists 2 options for extending Copilot for Microsoft 365.
+:::image type="content" source="../Media/extend copilot options.png" alt-text="Window lists 2 options for extending Copilot: create a copilot or create an action.":::
+1. Select **New action**.
 1. In the *New action* screen, select **Prompt**. This will open the AI Builder prompt builder.
 1. On the **Action details** page, enter "Professional Development Plan" as the **action name**.
 1. Enter the following **description**: "Creates an actionable professional development plan based on desired career milestones."
 1. Select **Next**.
-1. On the **Create prompt** page, enter “Design a professional development plan for someone aiming to achieve the following career [milestones]. The plan should include goals and objectives, resources and tools and a timeline for activities. Format the plan to be concise and actionable and present the information in a clear easy-to-follow manner suitable for a junior level employee.” as the **prompt**.
+1. In the **prompt** section of the **Add a prompt action** page, enter “Design a professional development plan for someone aiming to achieve the following career [milestones]. The plan should include goals and objectives, resources and tools and a timeline for activities. Format the plan to be concise and actionable and present the information in a clear easy-to-follow manner suitable for a junior level employee.” as the **prompt**.
 
     > [!NOTE]
     > Notice that there is an information bar at the top that indicates your prompt should have at least one dynamic value
 
-1. Select **Input** to open up that section.
+1. Under **Prompt settings** in the right sidebar, open the **Input** section.
 1. Select the **Add input** button to add an input.
 1. Enter `milestones` as the name of your input.
 1. Add the following text as the sample data:
@@ -90,31 +93,34 @@ Now that you finished writing the prompt, it’s time to enter it in Copilot Stu
 
     In the next window - you can review the plugin description and the inputs description.
 
-1. Change the input description of milestones to:
+1. On the **Select action parameters** page, change the input description of **milestones** to:
 
       ```text
       The career milestones that the user wants to achieve
       ```
 
-1. Select **Create prompt action** to finish creating your prompt action.
+1. Select **Next**.
 
-1. Select **Publish** to publish your action to Microsoft 365 Copilot.
+1. Select **Publish** to publish your action to Microsoft 365 Copilot.  This may take a minute.
 
 ## Task 4: Use the prompt plugin in Microsoft 365 Copilot
 
-Now that you have created your prompt action and tested it, continue to the next task to access it in Microsoft 365 Copilot.  It may take a few minutes for your plugin to appear in Microsoft 365 Copilot.
+Now that you have created your prompt action and tested it, continue to the next task to access it in Microsoft 365 Copilot.  It may take 5 minutes, or longer, for your plugin to appear in Microsoft 365 Copilot.
 
 1. Open [Microsoft Teams](https://teams.microsoft.com).
 1. Select the **Copilot** button in the left navigation.
-1. Select the **plugin** icon at the bottom of the screen (next to where you can send messages to Copilot).
-1. Look for **Copilot Studio** in the flyout menu that appeared when you selected the plugin icon and select **the caret icon** to expand the plugins under Copilot Studio.
+1. Select the **Manage Copilot response** icon at the bottom of the screen (next to where you can send messages to Copilot).
+1. Look for **Copilot Studio** in the flyout menu that appeared and confirm that it is toggled to be enabled.  
+1. Select **the caret icon** to expand the list of actions under Copilot Studio.
 
     > [!NOTE]
     > It could be that Copilot Studio is not visible. There can be two reasons for that: either your admin hasn’t deployed the Copilot Studio integrated app or the plugin hasn’t indexed yet – and that could mean you should wait a little while longer.
 
-1. Look for the plugin with the name **Professional Development Plan** in the list of plugins under the Copilot Studio section and select the toggle next to it to enable it.
+2. Look for the action with the name **Professional Development Plan** in the list of actions under the Copilot Studio section and select the toggle next to it to enable it.
 
     > [!NOTE]
     > If you don't see Professional Development Plan in the list of plugins under Copilot Studio, it might take a little while longer to show up. It can take a bit longer to show up in Microsoft 365 Copilot.
 
-1. After enabling the Professional Development Plan plugin, you can now use it in Copilot. **Try it out** by sending the following message to Copilot in Teams: "I would like to generate a Professional Development Plan to become better at my work as a marketeer and have a better chance at getting promoted to the senior marketer role."
+3. After enabling the Professional Development Plan action, you can now use it in Copilot. **Try it out** by sending the following message to Copilot in Teams: "I would like to generate a Professional Development Plan to achieve the following career milestones: 1 - become better at my work as a marketer and 2 - have a better chance at getting promoted to the senior marketer role."
+
+**Tip:** To enable developer mode in Copilot, enter `-developer on` in chat.  This allows you to observe when Copilot used a plugin to respond in chat.
