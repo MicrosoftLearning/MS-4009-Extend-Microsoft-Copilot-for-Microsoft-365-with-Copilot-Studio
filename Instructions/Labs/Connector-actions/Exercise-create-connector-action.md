@@ -15,11 +15,13 @@ In this task, you will configure a connector action for the MSN Weather connecto
     **Note:** The first time you open Copilot Studio, it may display a chat interface to create your first copilot. If this happens, select the **…** menu at the top right (next to the **Create** button) then select **Cancel copilot creation** to leave the chat interface and view the Copilot Studio home page.
 1. Select **Library** in the left navigation. Here, you can view a list of existing actions and connectors and create a new one.
 1. Select **Add an item** at the top.  A menu lists 2 options for extending Copilot for Microsoft 365.
-:::image type="content" source="../Media/extend copilot options.png" alt-text="Window lists 2 options for extending Copilot: create a copilot or create an action.":::
-2. Select **New action**.
-3. Select **Connector** to open the wizard for connector actions.
-4. Select **MSN Weather** as the connector.
-5. **Review** the description.
+   
+![Window lists 2 options for extending Copilot: create a copilot or create an action.](../Media/extend%20copilot%20options.png)
+
+3. Select **New action**.
+4. Select **Connector** to open the wizard for connector actions.
+5. Select **MSN Weather** as the connector.
+6. **Review** the description.
 
     > [!IMPORTANT]
     > This description is very important because Copilot will use this to match the user message with your plugin. If you don't have a good description, Copilot might not trigger your connector action.
@@ -86,7 +88,7 @@ In this task, you will test the connector action you configured in task 1 in Mic
 
    **Note:** Copilot may prompt you for permission before using the plugin.  Select **Always allow** to enable Copilot to use the plugin.
 
-   :::image type="content" source="../Media/test-msn-weather-allow.png" alt-text="Screenshot of Copilot prompting for permission to use plugin.":::
+   ![Screenshot of Copilot prompting for permission to use plugin.](../Media/test-msn-weather-allow.png)
 
 ## Task 3: Save and publish the connector action
 
